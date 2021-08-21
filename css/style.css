@@ -1,0 +1,1170 @@
+/* font-family: 'Noto Sans KR', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #000;
+  position: relative;
+}
+
+a {
+  color: #333333;
+}
+
+.mMember, 
+#search_wrap_mo {
+  display: none;
+}
+
+#container {
+  position: relative;
+}
+
+#container .center {
+  max-width: 1194px;
+  margin: 0 auto;
+  padding:60px 0;
+}
+
+/* header */
+
+header {
+  overflow: hidden;
+  height: 808px;
+  background: center/cover no-repeat url(../images/main.png);
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+.logo {
+  text-align: center;
+  color: black;
+  font-family: "Noto Sans KR", "Lato", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.logo a {
+  font-size: 40px;
+  color: #111;
+}
+
+.logo span {
+  display: block;
+  font-size: 20px;
+  margin-top: 7px;
+}
+
+/* search_member */
+
+.search_member {
+  position: absolute;
+  right: 20px;
+  top: 35px;
+  color: #544f49;
+  font-size: 14px;
+  display: flex;
+  z-index: 100;
+}
+
+.search_member > ul {
+  display: flex;
+}
+
+.search_member > ul > li {
+  
+  text-align: center;
+}
+.search_member > a {
+  display: block;
+}
+
+/* search_wrap */
+
+#search_wrap {
+  position: relative;
+}
+
+#search_wrap > .search_input {
+  position: relative;
+  
+}
+
+#search_wrap > .search_input > a {
+  right: 10px;
+  top: 0;
+  position: absolute;
+}
+#search_wrap > .search_input > label {
+  position: absolute;
+  left: 10px;
+  color: green;
+  display: none;
+}
+#search_wrap > .search_input > input {
+  width: 120px;
+  line-height: 30px;
+  border:1px solid #ccc;
+  border-radius: 30px;
+  margin-top:5px;
+}
+
+/* 장바구니 */
+
+.search_member > a {
+  font-size: 30px;
+  color: #544f49;
+  padding-right: 20px;
+  box-sizing: border-box;
+  display: none;
+}
+
+/* ham_btn */
+
+.toggle_btn div {
+  top: 20px;
+  margin-left: 20px;
+  font-size: 25px;
+  z-index: 1000;
+  position: absolute;
+  display: none;
+}
+
+
+.toggle_btn>.ham_btn a {
+  color: #544f49;
+}
+
+.toggle_btn>.close_btn>a {
+  color: #544f49;
+}
+
+/* nav login */
+
+nav .login {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40%;
+}
+
+.login a {
+  display: block;
+  padding-left: 25px;
+  display: none;
+  font-size: 20px;
+  color: white;
+  box-sizing: border-box;
+}
+
+/* #nav */
+
+nav {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  height: 808px;
+  padding-right: 80px;
+  top: 0;
+}
+
+#nav {
+}
+
+#nav > li {
+  padding-top: 30px;
+  padding-left: 80px;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+#nav > li > a {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+#nav > li > a span {
+  font-size: 18px;
+}
+
+#nav > li > .sub > li > a {
+  padding-left: 30px;
+  padding-top: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  display: none;
+}
+
+#nav > li > a:hover {
+  text-decoration: underline;
+}
+
+#nav > li:hover .sub > li > a {
+  display: block;
+  color: white;
+}
+
+/* #container */
+
+/* SHOP OUR FRAGRANCES */
+
+#contents {
+  text-align: center;
+}
+
+
+.shop_wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.shop_wrap > .our{
+  position: relative;
+}
+.shop_wrap > .our > .title {  
+  text-align: left;
+}
+
+.shop_wrap > .our > .view {
+  margin-right: 40px;
+  font-size: 20px;
+  position: absolute;
+  right:0;
+  top:15px;
+}
+
+.shop_wrap > .our > .view:hover {
+  text-decoration: underline;
+}
+
+.shop {
+  width: 100%;
+  height: auto;
+}
+
+.shop_our {
+  width: 175%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.shop_our > li {
+  text-align: center;
+  box-sizing: border-box;
+  width: 14.285714%;
+  padding:0 30px;
+  position: relative;
+  min-height:400px;
+  /* background:green;
+  border:2px solid red;
+  box-sizing: border-box; */
+}
+
+.shop > .shop_our h3 {
+  display: none;
+}
+
+.shop_our > li > a {
+  display: block;
+}
+
+.shop_our > li img {
+  width: 100%;
+  /* border:1px solid white */
+  /* height: auto; */
+}
+
+.shop_our > li h2 {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.shop_our > li p {
+  font-size: 14px;
+  color:#666
+}
+.shop_our > li p:nth-of-type(1){
+  min-height: 50px;
+}
+.shop_our > li p:last-child {
+  font-weight: bold;
+  margin-top:20px;
+  padding:5px 0 ;
+  border:1px solid black;
+  position: absolute;
+  bottom:0;
+  width:80%;
+  box-sizing: border-box;
+}
+
+.scroll_bg {
+  background: #ccc;
+  width: 90%;
+  margin: 30px auto;
+  border-radius: 10px;
+  height: 5px;
+}
+.scroll_bg > li {
+  float: left;
+  width: 14.285714%;
+  height: 5px;
+  background: transparent;
+  text-indent: -9999px;
+}
+.scroll_bg > li.active {
+  background: black;
+}
+
+/* FRAGRANCE_FINDER */
+
+.fragrance_finder {
+  width: 100%;
+  height: auto;
+  background: black;
+  vertical-align: middle;
+  color:white;
+}
+.fragrance_finder >.center{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fragrance_finder .box {
+  width: 50%;
+  height: auto;
+  text-align: center;
+  box-sizing: border-box;
+
+  /* position: relative; */
+}
+
+.fragrance_finder > .box > .fragrance {
+  font-size: 35px;
+  font-style: italic;
+}
+
+.box > .p_box{
+  width: 100%;
+  text-align: center;
+  border:2px dashed rgb(247, 246, 244);
+  padding:10px 0; 
+  box-sizing: border-box;
+  margin: 10px auto;
+}
+
+.box button {
+  width: 160px;
+  margin-top: 20px;
+  padding: 10px 0;
+  box-sizing: border-box;
+  text-align: center;
+  color: black;
+  background: rgb(247, 246, 244);
+  border:0;
+}
+
+.box p>img{
+  display: none;
+}
+
+.video_wrap {
+  position: relative;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.video_wrap #myvideo {
+  width: 95%;
+  margin:0 2.5%;
+  height: 100%;
+}
+
+/*video play button */
+
+.video_wrap > a {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video_wrap img {
+  width: 150%;
+  height: auto;
+}
+
+.video_wrap > .youtube {
+  display: block;
+  text-align: right;
+}
+
+.video_wrap > .youtube a {
+  display: inline-block;
+  margin: 10px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+}
+
+/* TALES OF HOME */
+
+.tales_of_home {
+  width: 100%;
+  height: auto;
+  margin-top: 90px;
+}
+
+
+.tales_of_home > .candle_img {
+
+}
+
+.candle_wrap {
+
+}
+
+.candle_wrap>div>div {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  background: #ebebeb;
+}
+
+.candle_wrap>div>div img {
+  width:50%;
+  float: left;
+}
+
+.candle_wrap .townhouse{
+  float: left;
+  width: 50%;
+  line-height: 1.5;
+  background: #ebebeb;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+}
+
+.candle_wrap .townhouse .text_wrap {
+  font-family: "Noto Sans KR", sans-serif;
+  padding:  50px 30px;
+  position: relative;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+
+.candle_wrap .text_wrap p {
+  position: absolute;
+  text-align: center;
+  line-height: 2;
+  padding: 15px;
+  box-sizing: border-box;
+  left: 50%;
+  bottom: -200px;
+  transform: translateX(-50%);
+  background: rgba(253, 253, 251, 0.473);
+  line-height: 1.4;
+  width: 80%;
+}
+
+.townhouse .candle > img {
+  width: 50%;
+}
+
+.dis-non {
+  display: none;
+}
+
+/* travel_candle */
+
+.travel_candle_img {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.travel_candle_img .candle img{
+
+}
+
+.travel_candle_img .candle img {
+  
+}
+
+.travel_candle_img > img {
+  width: 50%;
+}
+
+.travel_candles {
+  text-align: center;
+}
+
+
+.travel_candles {
+  display: block;
+}
+
+.travel_candles button {
+  margin-top: 20px;
+  line-height: 60px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.753);
+  color: white;
+  width: 220px;
+  border: 1px solid rgba(0, 0, 0, 0.753);
+}
+
+.travel_candles .button1:hover,
+.travel_candles .button2:hover {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+
+.travel_candles > .button3 {
+  background: none;
+  color: black;
+  font-weight: bold;
+  top: 10px;
+}
+
+.travel_candles > .button3:hover {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+
+
+/* news */
+
+.news {
+  margin-top: 120px;
+}
+
+.title {
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+.news_wrap {
+  vertical-align: middle;
+  display: flex;
+  justify-content: space-around;
+}
+
+.news_wrap h3 {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* sns_insta */
+
+.sns_insta {
+  width: 100%;
+  background: #eedfce;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.sns_insta > h2 {
+  /* font-size: 30px;
+  font-weight: bold;
+  padding: 20px 0 10px;
+  box-sizing: border-box; */
+}
+
+.sns_insta>.center > h2 img {
+  margin: 15px;
+}
+
+.sns_insta>.center > p {
+  font-size: 22px;
+  top: 10px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  display: none;
+}
+
+.sns_insta p:nth-of-type(1) {
+  display: block;
+}
+
+.big_img {
+  width: 100%;
+  overflow: hidden;
+  margin-top:30px;
+}
+
+/* big img */
+
+.big {
+  width: 40%;
+  position: relative;
+  float: left;
+}
+
+.big > li {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: none;
+}
+
+.big > li:first-child {
+  display: block;
+}
+
+.big > li > a {
+  display: block;
+  width: 100%;
+}
+
+.big img {
+  width: 100%;
+
+}
+
+/* small img */
+
+.small {
+  float: right;
+  width: 60%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 0;
+}
+
+.small > li {
+  padding-left: 5px;
+}
+
+.small img {
+  width: 100%;
+}
+
+.small > .active {
+  opacity: 0.3;
+}
+
+/* footer */
+
+.foot {
+  position: relative;
+}
+
+.foot > .foot_top {
+  padding: 15px;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.foot > .foot_top > p {
+  font-size: 22px;
+}
+
+.foot_top > .foot_wrap > li {
+  font-size: 1rem;
+  float: right;
+  border-right: 1px solid #544f49;
+  right: 0;
+  line-height: 1.2;
+  margin: 0 15px 10px 0;
+}
+
+.foot_top > .foot_wrap > li a {
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.foot_top > .foot_wrap > li:first-child {
+  border-right: none;
+}
+
+.add_wrap {
+  width: 100%;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-evenly;
+  /* line-height: 1.5; */
+  padding: 10px 30px;
+  box-sizing: border-box;
+}
+
+.foot_left,
+.foot_right {
+  width: 600px;
+  height: auto;
+}
+
+/* 반응형 */
+
+@media screen and (max-width: 1024px) {
+  .fragrance_finder >.center{
+    display: block;
+  }
+  .fragrance_finder .box,
+  .video_wrap{
+    width:100%;
+  }
+
+  .box > .p_box {
+    margin:0 auto;
+    width: 80%;
+  }
+
+  .box button {
+  }
+
+  .video_wrap #myvideo {
+    margin-top:15px;
+  }
+  /* news */
+
+  .news_wrap img {
+    width: 100%;
+  }
+  .candle_wrap .townhouse{
+    padding-bottom: 0;
+  }
+  .candle_wrap .townhouse .text_wrap{
+    padding:50px 30px 0;
+  }
+}
+
+
+/* max-width : 768px */
+
+@media screen and (max-width: 768px) {
+  .shop_our > li{
+    min-height: auto;
+    padding: 0 10px;
+  }
+  .mMember {
+    display: block;
+  }
+
+  .toggle_btn div {
+    display: block
+    
+  }
+
+  .toggle_btn>.ham_btn a {
+    /* color: white ; */
+  }
+  
+  .toggle_btn>.close_btn>a {
+    /* color: white ; */
+    display: none;
+  }
+  
+
+
+  .close_btn a {
+
+  }
+
+  .contents {
+
+  }
+  
+  /* header */
+
+  header {
+  }
+
+  #search_wrap > .search_input > a{
+    display: none;
+  } 
+
+  #search_wrap > .search_input > input {
+    width: 0px;
+    line-height: 25px;
+    display: none;
+  }
+  .member > li {
+    display: none;
+  }
+
+  .member > a {
+    font-size: 30px;
+    color: #544f49;
+  }
+
+
+
+  /* 장바구니 */
+  .search_member > ul {
+    
+  }
+  .search_member > a{
+    display: block;
+  }
+
+  #search_wrap_mo {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    color:white;
+    background-color: black;
+  }
+
+
+  #search_wrap_mo>.search_input a{
+    display: none;
+  }
+
+  #search_wrap_mo label {
+    /* text-align: center; */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  #search_wrap_mo input {
+    width: 50%;
+  }
+
+
+  /* nav */
+
+  /* ham_btn */
+
+  /* #nav */
+
+  nav .login {
+    margin-top:10px;
+  }
+  .mMember{
+    background:black;
+    /* line-height: 120px; */
+    line-height: 60px;
+    padding-top: 30px;
+    box-sizing: border-box;
+  }
+  .mMember>li{
+    width: 50%;
+    float:left;
+    text-align: center;
+  }
+  .mMember a{
+    color:white;
+  }
+  nav {
+    left:-100%;
+    background: rgba(0, 0, 0, 0.2);
+    width: 65%;
+    padding-right:0;
+  }
+  #nav > li{
+    padding:10px 20px;
+  }
+
+  /* SHOP OUR FRAGRANCES */
+
+  .shop_bg {
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  .shop_wrap {
+    /* height: 400px; */
+  }
+
+  .our img,
+  .our a {
+    display: none;
+  }
+
+  .our .title {
+    text-align: center;
+  }
+
+  .shop > .shop_our > li img {
+    width: 100%;
+    align-items: center;
+  }
+
+  .shop > .shop_our h2 {
+  font-size:13px;
+  }
+  
+
+
+  .shop_wrap > .pe > .our {
+    display: block;
+  }
+
+  .shop > .shop_our > li p {
+    display: none;
+  }
+
+  .scroll_bg {
+    display: none;
+  }
+
+  /* FRAGRANCE FINDER */
+
+  .fragrance_finder {
+    text-align: center;
+    height: auto;
+    /* background: none; */
+  }
+
+
+  .fragrance_finder > .box img {
+    display: none;
+  }
+
+  .fragrance_finder > .box button {
+    margin-bottom: 15px;
+  }
+
+  .video_wrap {
+    display: none;
+  }
+
+  /* TALES OF HOME */
+
+  .candle_wrap>div>div img {
+    width:100%;
+  }
+
+  .candle_wrap .candle_img > img {
+    width: 100%;
+    float: none;
+  } 
+
+  .candle_wrap .candle_img {
+    padding-bottom: 50px;
+  }
+  
+
+  .candle_wrap .townhouse {
+    width: 100%;
+    text-align: center;
+  }
+
+  .candle_wrap .townhouse .text_wrap {
+    width: 100%;
+  }
+
+
+  .candle_wrap .candle_img > img {
+    
+  } 
+
+  .townhouse .candle > img {
+  
+  }
+
+  .townhouse .candle > img:nth-child(2) {
+  }
+
+  .candle_wrap .text_wrap p {
+    width: 100%;
+  }
+
+
+  .travel_candles {
+  }
+
+  /* news */
+
+  .news {
+  }
+
+  .news_wrap > div {
+    padding: 10px;
+  }
+
+  .news_wrap img {
+  }
+
+  /* sns */
+
+  .sns_insta {
+    padding-bottom: 0;
+    width: 100%;
+  }
+
+  .big_img > .big {
+    display: none;
+  }
+
+  .big_img > .small {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .sns_insta .big_img img {
+  }
+
+  .big_img > .small img {
+  }
+  .big_img img {
+    height: auto;
+  }
+  .small img {
+    height: auto;
+
+  }
+
+  .small > .active {
+    opacity: initial;
+  }
+
+  /* footer */
+
+  .foot > .foot_top {
+    padding: 0;
+  }
+
+  .foot_top > .foot_wrap {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .foot_top > .foot_wrap > li {
+    display: block;
+    float: none;
+    border-right: none;
+    padding-top: 10px;
+    box-sizing: border-box;
+  }
+  .foot_top > .foot_wrap span {
+  }
+
+  .foot_left {
+    padding-right: 15px;
+    box-sizing: border-box;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  
+  body{
+    font-size:13px;
+  }
+
+  .title{
+    font-size:20px;
+  }
+
+  .logo a {
+    font-size: 25px;
+  }
+
+  .logo span {
+    font-size: 18px;
+  }
+
+  #search_wrap > .search_input > a {
+    top: 0px;
+    right: 5px;
+  }
+  #search_wrap > .search_input > a img {
+    width: 30px;
+  }
+
+  /* FRAGRANCE FINDER */
+  .fragrance_finder > .box > .fragrance {
+    font-size: 30px;
+    text-indent: 0;
+  }
+
+  /* TALES OF HOME */
+
+  .candle_wrap .townhouse .text_wrap {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  .townhouse .candle > img {
+    display: none;
+  }
+
+  .candle_wrap .text_wrap p {
+    display: none;
+  }
+
+  .travel_candles button {
+    margin-top: 10px;
+    line-height: 40px;
+  }
+  
+
+  /* news */
+  .news_wrap h3 {
+    font-size: 16px;
+  }
+
+  /* sns */
+  .sns_insta p:nth-of-type(1) {
+    display: none;
+  }
+
+  .sns_insta p:nth-of-type(2) {
+    display: block;
+  }
+
+  
+
+  /* footer */
+  .foot_top > .foot_wrap {
+    display: block;
+  }
+
+  .foot_top>.foot_wrap>li {
+    margin: 5px;
+    padding: 0;
+  }
+
+  .add_wrap {
+    padding: 10px 0;
+    font-size: 14px;
+  } 
+  .add_wrap > .foot_left {
+    margin-left: 5px;
+  }
+  .foot_left, .foot_right{
+    width:100%;
+  }
+
+
+}
+
+@media screen and (max-width: 320px) {
+
+nav {
+  width: 100%;
+}  
+
+.candle_wrap>div>div {
+  background: none;
+}  
+
+.sns_insta {
+  height: 400px;
+}
+
+}
+
